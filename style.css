@@ -1,0 +1,77 @@
+body {
+  background-color: #95B3D8;
+  font-family: Helvetica;
+  color: #404040;
+  font-size: 18;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h1, h2 {
+  color: #12026E;
+  font-family: Helvetica;
+  font-size: 20;
+  line-height: 2;
+}
+
+h1, p {
+  text-align: center;
+  padding: 10px
+}
+
+a {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #979393;
+  transition: 1s ease;
+  line-height: 3;
+  text-decoration: none;
+  color: rgb(15, 15, 116)
+}
+
+a:hover {
+  background-color: rgb(119, 118, 118);
+}
+
+img {
+  width: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+  display: inline-block;
+}
+
+div {
+  background: rgb(207, 207, 243);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 15px 35px rgb(46, 45, 45);
+  width: 525px;
+  margin: 35px auto;
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
